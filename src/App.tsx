@@ -76,7 +76,7 @@ const logementsDisponibles: Logement[] = [
     type: "4½",
     pieces: 4,
     superficie: "85 m²",
-    loyer: "752 $/mois",
+    loyer: "information disponible ultérieurement",
     disponible: "1er Juillet 2026",
     description: "Bel appartement de 4 pièces avec balcon, cuisine rénovée, près des services et transports.",
     image: "/gallery-interior-1.jpg"
@@ -90,7 +90,7 @@ const logementsDisponibles: Logement[] = [
     type: "4½",
     pieces: 4,
     superficie: "85 m²",
-    loyer: "752 $/mois",
+    loyer: "À confirmer",
     disponible: "À partir de juillet 2026",
     description:
       "Bel appartement de 4 pièces avec balcon, cuisine rénovée, près des services et transports.",
@@ -129,7 +129,7 @@ const logementsDisponibles: Logement[] = [
 const comites: Comite[] = [
   {
     id: "bon-voisinage",
-    nom: "Comité de Bon Voisinage1",
+    nom: "Comité de Bon Voisinage",
     description: "Favorise l'entraide et la solidarité entre les membres de la coopérative.",
     responsabilites: [
       "Organiser des activités sociales et communautaires",
@@ -242,7 +242,7 @@ const temoignages: Temoignage[] = [
 ];
 
 const galleryImages = [
-  { src: "/Plans-App.jpg", alt: "Entrée de l'immeuble", category: "Extérieur" },
+  { src: "/Plans-App.jpg", alt: "Entrée de l'immeublegit --version", category: "Extérieur" },
   { src: "/gallery-interior-2.jpg", alt: "Entrée de l'immeuble", category: "Extérieur" },
   { src: "/gallery-bedroom.jpg", alt: "Vue de côté du garage", category: "Extérieur" },
   { src: "/gallery-bathroom.jpg", alt: "Accès au garage", category: "Extérieur" },
